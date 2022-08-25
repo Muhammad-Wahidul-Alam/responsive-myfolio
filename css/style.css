@@ -1,0 +1,469 @@
+
+
+/* basic css starts */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+
+
+h1,h2,h3,h4,h5,h6 ul,ol,span{
+    margin: 0;
+    padding: 0;
+}
+
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul,ol{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.heading{
+    font-weight: 800;
+    font-size: 46px;
+    color: var(--main-color);
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+}
+
+.heading::after{
+    content: '';
+    position: absolute;
+    bottom: -30px;
+    left: 50%;
+    width: 162px;
+    height: 9px;
+    transform: translateX(-50%);
+    background-image: url(../img/headingUnline.png);
+
+
+}
+
+:root{
+    --main-color: #02918b;
+    --yellow-color: #cfc91d;
+    --banner-height: 729px;
+}
+
+/* baisc css ends */
+
+
+/* nav starts */
+
+nav{
+    background-color: #02918c;
+}
+
+
+
+nav #myNavBar ul li a{
+
+    color: white;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 26px 25px;
+}
+
+
+nav button.myTogglerBtn:focus {
+   
+    box-shadow: none;
+}
+
+nav button.myTogglerBtn{
+    color: white;
+
+}
+
+/* nav ends */
+
+/* banner starts */
+
+
+
+#banner{
+
+    height: 768px;
+    background-image: url(../img/banner1.png);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: white;
+    
+}
+
+
+
+
+
+#banner .banner_cnt h2{
+
+   
+    font-size: 30px;
+    font-weight: 400;
+    
+    
+}
+#banner .banner_cnt h1 {
+
+    
+    font-size: 68px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 30px;
+    
+
+}
+
+#banner .banner_cnt p{
+
+    
+    font-size: 18px;
+    font-weight: 400;
+    
+}
+
+#banner .banner_cnt a{
+    display: block;
+    width: 197px;
+    height: 47px;
+    background-color: #cfc91d;
+    margin: auto;
+    line-height: 47px;
+    font-size: 14px;
+    font-weight: 800;
+    color: #0b1016;
+    text-decoration: none;
+   
+
+}
+#banner .banner_cnt img{
+
+    margin: 50px auto;
+}
+
+
+
+#banner .row {
+    height: 728px;
+    width: 100%;
+}
+
+/* banner ends */
+
+
+
+/* about me starts */
+
+#about{
+    padding: 97px 0;
+}
+
+#about p{
+    max-width: 940px;
+    text-align: center;
+    margin: 78px auto;
+    color: #7e8287;
+    font-size: 16px;
+
+}
+
+#about p span{
+    font-size: 23px;
+    font-weight: 800;
+}
+
+#about .aboutCard {
+ 
+ text-align: center;
+ border-right: 1px solid #f01f04;
+ padding: 40px;
+ 
+} 
+
+#about .aboutCard p{
+    width: 100%;
+    margin: 0;
+    color: #7e8287;
+    font-size: 11px;
+    padding: 0 20px;
+    line-height: 20px;
+  
+}
+
+#about .aboutCard span{
+    font-size: 30px;
+    color: var(--main-color);
+}
+
+#about .aboutCard h3{
+    font-size: 16px;
+    font-weight: 800;
+    color: #7e8287;
+    margin: 20px;
+}
+
+#about .aboutCard:last-child{
+    border: none;
+}
+
+
+
+
+/* about me ends */
+
+
+
+/* service starts */
+
+#service{
+    background-image: url(../img/bcbanner.png);
+    background-size: cover;
+    background-position: center;
+    padding: 60px 0;
+}
+
+#service .heading{
+    font-weight: 800;
+    font-size: 46px;
+    color: var(--main-color);
+    text-transform: uppercase;
+    text-align: left;
+    position: relative;
+}
+
+
+#service .heading::after{
+    content: '';
+    position: absolute;
+    bottom: -30px;
+    left: 85px;
+    width: 162px;
+    height: 9px;
+    transform: translateX(-50%);
+    background-image: url(../img/headingUnline.png);
+
+
+}
+
+
+#service .container P{
+    padding-top: 50px;
+    line-height: 40px;
+}
+
+#service .serviceCard {
+    
+    text-align: left;
+    
+    padding: 40px;
+    
+   } 
+
+   
+   
+   #service .serviceCard p{
+    text-align: left;
+    color: #7e8287;
+    font-size: 11px;
+    padding: 10px 20px 10px 0;
+    line-height: 20px;
+     
+   }
+   
+   #service .serviceCard span{
+       font-size: 30px;
+       color: var(--main-color);
+   }
+   
+   #service .serviceCard h3{
+       font-size: 16px;
+       font-weight: 800;
+       color: #7e8287;
+       margin: left;
+   }
+
+/* service ends */
+
+
+/* work starts */
+
+#myWork{
+
+    padding: 97px 0;
+    
+}
+
+#myWork p{
+    max-width: 940px;
+    text-align: center;
+    margin: 78px auto;
+    color: #7e8287;
+    font-size: 16px;
+
+}
+
+#myWork .workImage img{
+    width: 100%;
+    
+    
+}
+
+
+#myWork .workImage {
+    position:relative;
+}
+#myWork .workImage .overlay{
+
+  position: absolute;
+  z-index: 1;
+  inset: 20px;
+  color: white;
+  background-color: #31c7bfd2;
+  transform: scale(0);
+  transition: 0.3s;
+}
+
+
+#myWork .workImage .overlay h2{
+    font-size: 16px;
+    font-weight: 800;
+    color: #7e8287;
+    text-align: center;
+   padding: 20px;
+   margin-top: 30px;
+    color: white;
+}
+#myWork .workImage .overlay p{
+    width: 100%;
+    margin: 0;
+    color: #7e8287;
+    font-size: 11px;
+    padding: 0 50px;
+    color: white;
+    opacity: 0;
+    transition-delay: 1s;
+    transition: 2s;
+
+}
+
+#myWork .workImage:hover .overlay{
+    transform: scale(1);
+}
+#myWork .workImage:hover .overlay p{
+    opacity: 1;
+}
+
+
+
+/* work ends */
+
+
+/* contack starts*/
+
+
+#contact p{
+    max-width: 940px;
+    text-align: center;
+    margin: 78px auto;
+    color: #7e8287;
+    font-size: 16px;
+
+}
+
+/* contact ends */
+
+
+/* footer starts */
+
+footer{
+    background-color:#0a0a0b;
+    padding: 60px 0;
+}
+
+footer .formInput{
+    width: 600px !important;
+    margin: auto;
+    
+}
+
+
+footer .formInput input{
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid rgba(221, 221, 221, 0.315);
+    border-radius: 0;
+    text-align: center;
+    color: white;
+}
+
+footer .formInput input:focus{
+
+    background-color: transparent;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+footer form .btn {
+    color: #0a0a0b;
+   background-color: #cfc91d;
+   width: 150px;
+   padding-top: 20px 0;
+   font-size: 14px;
+   font-weight: 800;
+  }
+  
+  
+
+
+
+footer .btn:hover {
+    background-color: rgb(68, 224, 48);
+  }
+
+
+/*  */
+
+
+#ending{
+    background-color: #000000;
+}
+ 
+#ending p{
+    text-transform: uppercase;
+    color: #ffffff96;
+    text-align: center;
+    padding: 20px 0;
+
+}
+
+/*  */
+
+/* footer ends */

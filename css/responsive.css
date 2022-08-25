@@ -1,0 +1,119 @@
+@media (min-width: 320px) and (max-width: 575px){
+
+    nav #myNavBar ul li a {
+        
+        padding: 15px 15px;
+    }
+
+
+    nav #myNavBar ul {
+
+        text-align: center;
+    }
+
+
+    #banner {
+        height: 250px;
+        
+    }
+
+    #banner h2 {
+        font-size: 25px;
+    }
+
+}
+
+@media (min-width: 576px) and (max-width: 991px) {
+    #banner {
+        height: 400px;
+    }
+
+
+   
+}
+
+
+@media (min-width: 576px) and (max-width: 991px){
+
+    #banner h2 {
+        font-size: 30px;
+    }
+}
+@media (min-width: 992px) and (max-width: 1200px){
+
+    #banner h2 {
+        font-size: 40px;
+    }
+}
+@media (min-width: 856px) and (max-width: 1100px){
+   
+   
+    #banner .banner_cnt h1 {
+        font-size: 40px;
+        
+       
+    }
+    
+}
+@media (min-width: 749px) and (max-width: 855px){
+   
+   
+    #banner .banner_cnt h1 {
+        font-size: 30px;
+        
+       
+    }
+    
+
+
+
+}
+
+@media (min-width: 658px) and (max-width: 748px){
+
+    #banner .banner_cnt h1 {
+        font-size: 20px;
+       
+       
+    }
+    
+}
+@media (min-width: 658px) and (max-width: 748px){
+
+    #banner .banner_cnt h1 {
+        font-size: 20px;
+       
+       
+    }
+    
+}
+@media (min-width: 500px) and (max-width: 657px){
+
+    #banner .banner_cnt h1 {
+        font-size: 15px;
+        letter-spacing: 15px;
+       
+       
+    }
+    
+}
+
+@media (min-width:768px) and (max-width:991px){
+  
+    #about .aboutCard:nth-child(2){
+        border: none;
+    }
+}
+@media (min-width:767px){
+   
+
+
+    footer .formInput {
+        
+        width: 100%;
+        padding: 0 25px;
+    }
+
+
+}
+
